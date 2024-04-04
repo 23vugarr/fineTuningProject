@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ai-project"
+version = "0.1.0"
+description = ""
+authors = ["Vugar Abdulali <vabdulaliyev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^2.2.2"
+torchvision = "^0.17.2"
+torchaudio = "^2.2.2"
+streamlit = "^1.32.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
